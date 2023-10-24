@@ -1,0 +1,186 @@
+@font-face{
+    font-family: 'Cerebri-Sans-Regular';
+    src:url('../fonts/Cerebri-Sans-Regular.ttf');
+}
+
+body{
+    font-family:'Cerebri-Sans-Regular';
+    background-color: #FFF8EE;
+}
+
+header section{
+
+height: 400px;
+}
+
+
+
+h1{
+    margin-top: 100px;    
+    font-size: 100px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 20px;
+    
+}
+
+header section div{
+    text-align: center;
+    width: 320px;
+    height: 400px;    
+    float: left;
+    margin-left: 17%;
+}
+
+header section figure{
+    
+    height: 400px;
+    width: 49%;
+    float: right;
+}
+
+header section figure img{
+    
+    width: 310px;
+    float: right;
+    margin-right: 30%;
+}
+
+header{
+    height: 600px;
+    
+}
+
+nav{
+    clear: both;
+    height: 200px;
+    
+    background-color: #FFC1D3;
+    margin: 0 15%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+nav p{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+nav span{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+main{
+    height: 610px;
+    
+}
+
+/* main section:first-child{
+    margin: 20px 1% 0 1%;    
+} */
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 15%;
+    
+    
+}
+
+main section figure img{
+    
+    width: 50%;
+}
+
+section div{
+    text-align: center;
+    
+    width: 40%;
+    
+}
+
+article{
+    width: 30%;
+    
+}
+
+th{
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.left{
+    
+    text-align: left;
+    width: 40%;
+}
+
+td{
+    
+    width: 20%;
+    padding-top: 10px; 
+    font-weight: 700;  
+    
+}
+
+tr{
+    margin: 20px 0;
+}
+
+table{
+    
+    width: 30%;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+article p{
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+footer{    
+    width: 70%;
+    margin: 0 15%;
+    height: 120px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+footer table{
+    width: 30%;
+    
+}
+
+footer div{
+    width: 30%;    
+    background-color: #85E0E4;
+    border-radius: 20px;
+}
+
+footer p{
+    font-size: 15px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+
+
